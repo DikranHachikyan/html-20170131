@@ -1,0 +1,44 @@
+			
+.txt {
+    /* форматиране на шрифт
+    font-size: 20px;
+    font-family: Helvetica, Verdana, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-variant: small-caps;
+    color: #fc0;*/
+
+    text-align: justify;
+    width: 80%;
+    border-color: blue;
+    border-style: ridge;
+    border-width: 5px;
+    padding: 10px;
+    margin: auto;
+
+}			
+
+.txt a {
+	text-decoration:none;
+}
+
+.main-title {
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 0.3em;
+    letter-spacing: 0.2em;
+}
+
+body{
+	background-color: #ccc;
+	background-image: url(../../pics-large/pic1-320x240.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+.menu li{
+	width:120;
+	border:1px solid red;
+	display: inline-block;
+}
